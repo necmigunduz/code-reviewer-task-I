@@ -1,0 +1,32 @@
+h1 {
+    
+}
+
+body {
+    background-color: #c3cfdf;
+    transparency: 50%;
+    max-width: 50%;
+    margin: auto;   
+}
+
+#survey-form {
+    background-color:  #072247;
+    color: white;
+    padding: 20px;
+    border-radius: 2%;
+}
+div {
+    margin-top: 25px;
+}
+
+.large {
+    margin-top: 10px;
+    height: 50px;
+    width: 90%;
+}
+button {
+    background-color:     #51934d  ;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
