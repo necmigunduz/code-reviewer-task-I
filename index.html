@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -11,26 +12,26 @@
     <p>Thank you for taking the time to help us improve the platform</p>
 
     <div>
-      <form action="", id='survey-form'>
+      <form id='survey-form'>
         <div>
           <label for="name">Name</label><br>
-          <input class="large", type="text", id="name", placeholder="enter your name here please">
+          <input class="large" type="text" id="name" placeholder="enter your name here please">
         </div>
 
         <div>
           <label for="email">Email</label><br>
-          <input class="large", type="email", id='email', placeholder="enter your email">
+          <input class="large" type="email" id='email' placeholder="enter your email">
         </div>
 
         <div>
           <label for="age">Age(optional)</label><br>
-          <input class="large", type="number", id='age'>
+          <input class="large" type="number" id='age'>
         </div>
 
         <div>
           <label for="dropdown">Which option best describes your current role?</label><br>
-          <select class="large", name="roles" id="dropdown">
-            <option value="", disabled selected>Select current role</option>
+          <select class="large" name="roles" id="dropdown">
+            <option value="" disabled selected>Select current role</option>
             <option value="">Student</option>
             <option value="">Fulltime Worker</option>
             <option value="">Fulltime Learners</option>
@@ -51,8 +52,8 @@
 
         <div>
           <label for="dropdown">What is your favorite feature of freeCodeCamp?</label><br>
-          <select class="large", name="roles" id="best">
-            <option value="", disabled selected>Select option</option>
+          <select class="large" name="roles" id="best">
+            <option value="" disabled selected>Select option</option>
             <option value="">Challenges</option>
             <option value="">Projects</option>
             <option value="">Community</option>
@@ -62,35 +63,35 @@
 
         <div>
           <label> What would you like to see improved? (Check all that apply)</label><br>
-            <input type="checkbox" id="front " name="" value="">
+            <input type="checkbox" id="front">
             <label for="front"> Front-end Projects</label><br>
-            <input type="checkbox" id="back" name="" value="">
+            <input type="checkbox" id="back">
             <label for="back"> Back-end Projects</label><br>
-            <input type="checkbox" id="data" name="" value="">
+            <input type="checkbox" id="data">
             <label for="data"> Data Visualiation </label><br>
-            <input type="checkbox" id="challenges" name="" value="">
+            <input type="checkbox" id="challenges">
             <label for="challenges"> Challenges </label><br>
-            <input type="checkbox" id="open" name="" value="">
+            <input type="checkbox" id="open">
             <label for="data"> Open Source Community</label><br>
-            <input type="checkbox" id="gitter" name="" value="">
+            <input type="checkbox" id="gitter">
             <label for="gitter"> Gitter Helps Rooms </label><br>
-            <input type="checkbox" id="videos" name="" value="">
+            <input type="checkbox" id="videos">
             <label for="videos"> Videos </label><br>
-            <input type="checkbox" id="city" name="" value="">
+            <input type="checkbox" id="city">
             <label for="city"> City Meetups </label><br>
-            <input type="checkbox" id="wiki" name="" value="">
+            <input type="checkbox" id="wiki">
             <label for="wiki"> Wiki Forums </label><br>
-            <input type="checkbox" id="additions" name="" value="">
+            <input type="checkbox" id="additions">
             <label for="additions"> Additional Sources </label><br>
           
         </div>
 
         <div>
           <label for='comment'>Any comments or suggestions? </label><br>
-          <input class="large", type="text-area", id='comment', placeholder="enter your comments here">
+          <textarea class="large" id='comment'>Enter your comments here</textarea>
         </div>
 
-        <button class="large", id="submit", type="submit">Submit</button>
+        <button class="large" id="submit" type="submit">Submit</button>
         </form>
     </div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
